@@ -21,6 +21,27 @@ let loggedIn = 0
 // "Krunal" => true
 
 let Number = 21
-let StringNumber = String(Number)
+// let StringNumber = String(Number)
 
-console.log(StringNumber);
+// console.log(StringNumber);
+
+
+// ***************** operations ******************* //
+
+let value = 2
+let negvalue = -value
+
+// console.log(negvalue);
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%2);
+
+console.log(+true);
+console.log(+"");
+
+let gameCounter = 100;
+++gameCounter;
+console.log(gameCounter);

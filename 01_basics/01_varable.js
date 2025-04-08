@@ -13,3 +13,5 @@ AccountCity = "Mumbai"
 let AccountState; 
 
 console.table([AccountId, AccountEmail, AccountPassword, AccountCity, AccountState])
+
+
