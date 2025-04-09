@@ -28,3 +28,26 @@ const MyFunction = function() {
     console.log("Hello World");
     
 }
+
+// ********************* memorys  ************************ //
+
+// stack(primitive) and heap(Non-primitive) 
+
+let MyName = "Krunal"
+let anothername = MyName
+anothername = "Milan"
+
+console.log(MyName);
+console.log(anothername);
+
+let userone = {
+    Email : "krunal@gmail.com",
+    Password : "Krunal@2101"
+}
+
+let userTwo = userone
+userTwo.Email = "Milan@gmail.com"
+
+console.log(userone.Email);
+console.log(userTwo.Email);
+
