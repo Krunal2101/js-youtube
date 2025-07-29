@@ -4,9 +4,9 @@ const tinderuser = new Object()
 
 const tinderuser1 = {}
 
-tinderuser.id = "Manav123"
-tinderuser.name = "Manav"
-tinderuser.isLoggedIn = false
+// tinderuser.id = "Manav123"
+// tinderuser.name = "Manav"
+// tinderuser.isLoggedIn = false
 
 // console.log(tinderuser);
 
@@ -25,11 +25,11 @@ const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
 const obj4 = {5: "a", 6: "b"}
 
-// const obj3 = object.assign{obj1, obj2}
+//const obj3 = object.assign{obj1, obj2}
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 
 //most used 
-const obj3 = {...obj1, ...obj2}
+// const obj3 = {...obj1, ...obj2}
 //console.log(obj3);
 
 // when the value are coming from database
@@ -54,9 +54,35 @@ const user = [
 ]
 
 user[1].Email
-console.log(tinderuser);
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
+// console.log(tinderuser);
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderuser.hasOwnProperty("isLoggedIn"));
+
+const course = {
+    coursename : "js in hindi",
+    price : "599",
+    courseinsturcter: "Krunal"
+}
+
+const {courseinsturcter: insturcter} = course;
+
+//console.log(courseinsturcter);
+// console.log(insturcter);
+
+// json example
+
+//{
+//    "name": "Krunal"
+//    "course": "js in hindi"
+//    "price": "free"
+//}
+
+
+[
+    {},
+    {},
+    {}
+]
