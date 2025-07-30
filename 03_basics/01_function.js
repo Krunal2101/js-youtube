@@ -53,3 +53,4 @@ function returnsecondvalue(anyarry){
 }
 
 console.log(returnsecondvalue(newarry))
+
