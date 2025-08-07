@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai or code</title>
+</head>
+<body style="background-color: #212121; color: azure;">
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+    
+</body>
+<script>
+    function addlanguage(langname) {
+        const li = document.createElement("li");
+        li.innerHTML = `${langname}`
+        document.querySelector('.language').appendChild(li);
+    }
+    addlanguage("Python")
+    addlanguage("Typescript")
+
+    function addoptilanguage(langname) {
+        const li = document.createElement("li");
+        li.appendChild(document.createTextNode(langname))
+        document.querySelector('.language').appendChild(li)
+
+    }
+    addoptilanguage("Go lang")
+
+    // edit the upper value
+    
+    const secondlang = document.querySelector("li:nth-child(2)")
+    const newli = document.createElement("li")
+    newli.textContent = 'sql'
+    secondlang.replaceWith(newli)
+
+    // remove 
+
+    const lastlang = document.querySelector("li:last-child")
+    lastlang.remove()
+</script>
+</html>
